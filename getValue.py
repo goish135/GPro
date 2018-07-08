@@ -18,8 +18,6 @@ root2 = tree2.getroot()
 # write into spped.xls
 counter = 0
 for info in root.iter('Info'):
-    #print (info.attrib['routeid'], info.attrib['roadsection'])
-    #print('/')
     sheet.write(counter,0,info.attrib['routeid'])
     sheet.write(counter,1,info.attrib['roadsection'])
     for info2 in root2.iter('Info'):
@@ -28,19 +26,6 @@ for info in root.iter('Info'):
             sheet.write(counter,3,info2.attrib['datacollecttime'])
             break
     counter = counter + 1 
-
-# read from dynamic.xml
-#tree2 = ET.parse('dynamic.xml')
-#root2 = tree2.getroot()
-
-# get routeid & value & datacollecttme 
-#counter2 = 0
-#for info in root2.iter('Info'):
-#    sheet_2.write(counter2,0,info.attrib['routeid'])
-#    sheet_2.write(counter2,1,info.attrib['value'])
-#    sheet_2.write(counter2,2,info.attrib['datacollecttime'])
-#    counter2 = counter2 + 1
-
 
 # save table
 table.save('getValue.xls')
