@@ -22,3 +22,12 @@
 > ![Demo2](https://i.imgur.com/o3XxqZn.png,compare_and_write)
 ***
 
+* 目標3 : 使用 google maps api / directions api 取得距離(固定)，時間(不固定)，及 路線(途經什麼路...)
+> multiroute.py
+
+> 前提: 取得 token 並 啟用 directions api 
+
+> 參閱 : https://developers.google.com/maps/documentation/directions/intro?hl=zh-TW
+> 步驟 : 網頁擷取 -> json 解析 
+***
+
