@@ -28,6 +28,9 @@
 > 前提: 取得 token 並 啟用 directions api 
 
 > 參閱 : https://developers.google.com/maps/documentation/directions/intro?hl=zh-TW
-> 步驟 : 網頁擷取 -> json 解析 
+
+> 步驟 : 網頁擷取 -> json 解析
+
+> ![Demo3](https://imgur.com/a/FnUAAUr,return distance&time&multiroute)
 ***
 
