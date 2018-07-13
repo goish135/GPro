@@ -31,6 +31,6 @@
 
 > 步驟 : 網頁擷取 -> json 解析
 
-> ![Demo3](https://imgur.com/a/FnUAAUr,return distance&time&multiroute)
+> ![Demo3](https://imgur.com/a/FnUAAUr,distance&time&multiroute)
 ***
 
