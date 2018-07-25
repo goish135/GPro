@@ -37,17 +37,7 @@ while True:
 	print()
 	total_routes = len(routes)
 	
-	#aaa=routes[0]['legs']
-	#bbb=routes[1]['legs']
-	#ccc=routes[2]['legs']
-	#total_steps_1 = len(aaa[0]['steps'])
-	#print(total_steps_1)
-	#b1 = len(bbb[0]['steps'])
-	#print(b1)
-	#c1 = len(ccc[0]['steps']) 
-	#print(c1)
-	#for d in range(c1): #list all steps in one route
-	#	print(ccc[0]['steps'][d]['html_instructions'])
+
 	re_words = re.compile(u"[\u4e00-\u9fa5]+[0-9]*[\u4e00-\u9fa5]+")
 	
 	for ct in range(total_routes):
@@ -72,13 +62,7 @@ while True:
 				
 		print('/')	
 	print('/')		
-	#for r in range(total_routes):
-	#	print(routes[r]['summary'])
-	#	leg = routes[r]['legs']
-	#	print(leg[0]['distance']['text'])
-	#	print(leg[0]['duration']['text'])
-		#print('/',end='')
-	#	print('/')
+
 
 table.save('road_and_distance.xls')	
 	
