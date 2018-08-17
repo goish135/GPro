@@ -8,6 +8,7 @@
 >  附註 : [臺中市路段動態資訊](http://opendata.taichung.gov.tw/dataset/3abb91ea-1a9f-11e8-8f43-00155d021202)
 
 >  ![Demo1](https://i.imgur.com/LvWAf9H.png,dowloadtoComputer)
+
 ***
 
 * 目標2 : 將台中市路段靜態資料與台中市路段動態資料做結合，得到 roadsection (路段名稱)及其"速率"
@@ -20,6 +21,7 @@
 > 附註 : [臺中市路段靜態資訊](http://opendata.taichung.gov.tw/dataset/3af22636-1a9f-11e8-8f43-00155d021202)
 
 > ![Demo2](https://i.imgur.com/o3XxqZn.png,compare_and_write)
+
 ***
 
 * 目標3 : 使用 google maps api / directions api 取得距離(固定)，時間(不固定)，及 路線(途經什麼路...)
@@ -32,6 +34,7 @@
 > 步驟 : 網頁擷取 -> json 解析
 
 > ![Demo3](https://i.imgur.com/5e0Q9Ts.png,distance&time&multiroute)
+
 ***
 > steps.py
 
